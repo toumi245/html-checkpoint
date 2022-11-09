@@ -29,11 +29,10 @@ body {
 }
 .box {
     text-align: center;
-    border: 2px solid  green;
+    border:  solid  green;
     background-color: lightblue;
-    width: 70px%;
-    margin-left: auto;
-    margin-right: auto;
+    padding-left: 0%;
+    padding-right: 0%;
 }
 .titre{
     color:blue ;
