@@ -5,62 +5,70 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>my first project</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>  
-        <ul>           
+    <header class="nav">
+        <nav class="color">  
+        <ul class="list">           
             <li><a href="#home">home</a></li>
             <li><a href="#about">about</a></li>
             <li><a href="#work">work</a></li>
             <li><a href="#resume">resume</a></li>
             <li><a href="#contact">contact</a></li>
         </ul>
-        <style>
-           h1 {color:red;
-            font-family: roboto;
-            text-align:start;
-            }
-        </style>
+        </nav>
     </header>
+        
     <a name="about"></a>
         <section>
-            <h1>about</h1>
-            <pre class="center">
-                     Hello I am toumi chedli I'am 22 years old I live in hammamet
+            <h1 class="titre">about</h1>
+            <pre class="box">
+                    Hello I am toumi chedli I'am 22 years old I live in hammamet
                     have a degree in civil engineering my hobby is coding  
                     bird breeding and fishing. 
-            </pre> 
+            </preS> 
         </section>
-        <a name="home"></a>
+        <a name="home" class="titre"></a>
         <section>
-        <h1> home</h1>
+        <h1 class="titre"> home</h1>
        <img src="chedli.jpg" width=500 height="600">
        <iframe src="https://www.youtube.com/embed/OTOvkhTkCdk" width="500" height="600"></iframe>
     </section>
-    <a name="contact">contact</a>
+    <a name="contact"></a>
     <form>
-        <h1>contact</h1>
+        <h1 class="titre">contact</h1>
         <label> first Name:</label>
         <input  type="text" name="first name" placeholder="type your name here"/>
+        <br>
         <br>
         <label> last Name:</label>
         <input  type="text" name="last name" placeholder="type your name here"/>
         <br>
+        <br>
         <label>Birthday:</label>
         <input type="date" id="birthday" name="birthday">
         <input type="submit">
-    </br>
-        <label for="male">Male</label>
+        <br>
+        <br>
+        <label for="male" >Male</label>
         <input type="radio" name="gender" id="male" value="male" checked>
+        <br>
+        <br>
         <label for="female">Female</label>
         <input type="radio" name="gender" id="female" value="female">
         <br>
+        <br>
         <label>Password</label>
         <input type="password" name="password">
-        <input type="submit" name="submit">
+        <br>
+        <br>
+        <input type="submit" name="submit" class="button" >
     </form>
-    <a name="resume">resume</a>
+    <a name="resume"></a>
     <section>
+        <br>
+        <br>
     <table>
         <tr>
             <td>
@@ -78,7 +86,7 @@
   <br>
   <!--personal details-->
   <section>
-    <h1>Personal details</h1>
+    <h1 class="titre">Personal details</h1>
     <hr>
     <table>
         <tr>
@@ -117,10 +125,11 @@
   </section>
   <hr>
   <section>
-    <h1><strong>academic training</strong></h1>
-    <h2>National applied license diploma</h2>
+    <h1 class="titre"><strong>academic training</strong></h1>
+    <p>National applied license diploma</p>
+    </section>
     <h3>Iset Nabeul</h3>
-    <ul><li>30/09/2022</li></ul>
+    <ul class="date"><li>30/09/2022</li></ul>
   </section>
 </body>
 </html>
